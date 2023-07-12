@@ -1,8 +1,6 @@
-./data/features*
-./data/photos.csv
-./data/product.csv
-./data/related.csv
-./data/skus.csv
-./data/styles.csv
-./data/photos/
-./data/related/
+data/features*
+data/photos*
+data/product*
+data/related*
+data/skus*
+data/styles*
