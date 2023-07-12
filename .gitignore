@@ -1,4 +1,4 @@
-./data/features.csv
+./data/features*
 ./data/photos.csv
 ./data/product.csv
 ./data/related.csv
