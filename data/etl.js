@@ -4,6 +4,9 @@ import { fileURLToPath } from 'node:url'
 import cassandra from 'cassandra-driver'
 
 const client = new cassandra.Client({
+  // Assumes that the database is available at localhost:8080.
+  // If repeating the process in a different env, this value
+  // may need to be changed.
   contactPoints: ['localhost:8080'],
   localDataCenter: 'datacenter1',
   keyspace: 'product_space'
@@ -19,6 +22,9 @@ const legend = {}
 files.forEach((file, i)=>{
   legend[tables[i]] = file.next().toString().split(',')
 })
+
+// Writes legend to a json file in the data directory.
+// This was done for convenience during development.
 fs.writeFile(
   fileURLToPath(new URL('./legend.json', import.meta.url)),
   JSON.stringify(legend, null, 2)
@@ -109,7 +115,9 @@ function processRecord(line) {
     }
     oldColumns.forEach((col, j)=>{
       if (columnMap[col]) {
-        // Transform sku to string
+        // In the original dataset, the sku id column is an integer type.
+        // In the new database, this is changed to a string to add support
+        // for non-integer product skus.
         if (columnMap[col] === 'sku') {
           oldValues[j] = JSON.stringify(oldValues[j])
         }
@@ -130,6 +138,10 @@ function processRecord(line) {
       skipCount++
     })
 
+    // In the original dataset, the default style for a product is
+    // stored in the styles table as a boolean. In the new dataset,
+    // it is stored in the products table as a style id, in order to
+    // prevent potential conflicts
     if (title === 'styles') {
       let style_id = oldValues[0]
       let product_id = oldValues[1]
