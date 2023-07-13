@@ -1,18 +1,12 @@
 import db from './db.js'
 
 const controller = {
-  getProduct: (productId)=>{
-    return db.queryProduct(productId)
-    .then(async (result)=>{
-      let [body] = result.rows
-      delete body.product_id
-      body.id = productId
-      body.features = await db.queryFeatures(productId).then(res => res.rows)
-      return body
-    })
-    .catch((err)=>{
-
-    })
+  getProduct: async (productId)=>{
+    const [body] = (await db.queryProduct(productId)).rows
+    delete body.product_id
+    body.id = productId
+    body.features = (await db.queryFeatures(productId)).rows
+    return body
   },
 
   getAllProducts: ()=>{
