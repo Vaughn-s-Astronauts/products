@@ -25,3 +25,15 @@ Fix:
 OR
 1. Docker Desktop > Containers tab > > click "cass_cluster" > Terminal tab
 2. In container terminal, run cqlsh
+
+# ETL Process
+ETL-related files can be found in the data directory. To repeat the process:
+1. Copy the necessary legacy data files into the data directory:
+- features.csv
+- photos.csv
+- product.csv
+- related.csv
+- skus.csv
+- styles.csv
+2. Run node ./data/etl.js
+Note: the ETL script assumes that the database is available at localhost:8080. If the process is repeated in a different env, this value may need to be changed.
