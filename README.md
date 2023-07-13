@@ -1,1 +1,27 @@
 # products
+
+# Install Docker (Windows)
+1. Install gui application here: https://www.docker.com/get-started/
+2. When prompted, make sure WSL option is selected (this should be the default)
+3. Open Docker Desktop App
+4. Select settings (top of window, gear icon)
+5. In Resources > WSL Integration, activate the appropriate Linux Distribution (e.g. "Ubuntu 22.04")
+
+# DB Installation
+1. sudo apt install default-jre
+2. sudo docker pull cassandra:latest
+3. sudo docker run --name cass_cluster cassandra:latest
+OR
+3. GUI: ???
+
+# NOTE: Exiting the term which is running the cluster will stop the VM
+# NOTE: Even though the VM has stopped, it still blocks from using docker run
+Fix:
+- GUI: Docker Desktop > Images tab > Actions column > Play button
+- CLI: ???
+
+# Enter DB Shell Interface
+- docker exec -it cass_cluster cqlsh
+OR
+1. Docker Desktop > Containers tab > > click "cass_cluster" > Terminal tab
+2. In container terminal, run cqlsh

@@ -1,0 +1,24 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "SDC Atelier System, Products Service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaughn-s-Astronauts/products.git"
+  },
+  "author": "Michael Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaughn-s-Astronauts/products/issues"
+  },
+  "homepage": "https://github.com/Vaughn-s-Astronauts/products#readme",
+  "dependencies": {
+    "cassandra-driver": "^4.6.4",
+    "n-readlines": "^1.0.1"
+  }
+}

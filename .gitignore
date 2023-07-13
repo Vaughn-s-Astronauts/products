@@ -4,3 +4,5 @@ data/product*
 data/related*
 data/skus*
 data/styles*
+node_modules
+.cassandraWorkbench.jsonc
