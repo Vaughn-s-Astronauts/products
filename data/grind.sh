@@ -1,4 +1,10 @@
 #!/usr/bin/bash
+
+# Note: This script is not part of the ETL or setup process.
+# I just wanted to brush up on Bash, and I wanted to be able
+# to open up some of the csv sheets to see what they looked
+# like.
+
 source="$1"
 dirout="$2"
 chunksize=37500

@@ -1,0 +1,21 @@
+{
+  "category": "Jackets",
+  "default_price": 140,
+  "default_style_id": 1,
+  "description": "The So Fatigues will wake you up and fit you in. This high energy camo will have you blending in to even the wildest surroundings.",
+  "name": "Camo Onesie",
+  "slogan": "Blend in to your crowd",
+  "id": 1,
+  "features": [
+    {
+      "product_id": 1,
+      "feature": "Buttons",
+      "value": "Brass"
+    },
+    {
+      "product_id": 1,
+      "feature": "Fabric",
+      "value": "Canvas"
+    }
+  ]
+}
