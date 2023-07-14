@@ -2,31 +2,37 @@ import db from './db.js'
 
 const controller = {
   getProduct: async (productId)=>{
-    const [body] = (await db.queryProduct(productId)).rows
-    delete body.product_id
-    body.id = productId
-    body.features = (await db.queryFeatures(productId)).rows
-    return body
+    const [product] = (await db.queryProduct(productId)).rows
+    delete product.product_id
+    product.id = productId
+    product.features = (await db.queryFeatures(productId)).rows
+    return product
   },
 
   getAllProducts: ()=>{
-    return db.queryAllProducts()
-    .catch((err)=>{
-
-    })
+    // TODO
   },
 
-  getStyles: (productId)=>{
-    return db.queryStyles(productId)
-    .catch((err)=>{
-
-    })
+  getStyles: async (productId)=>{
+    const styles = (await db.queryStyles(productId)).rows
+    for (const style of styles) {
+      style.photos = (await db.queryPhotos(style.style_id)).rows
+      const skus = (await db.querySkus(style.style_id)).rows
+      style.skus = {}
+      skus.forEach((sku)=>{
+        const {quantity, size} = sku
+        style.skus[sku.sku] = {quantity, size}
+      })
+      style.id = style.style_id
+      delete style.style_id
+    }
+    return styles
   },
 
-  getRelatedProducts: (productId)=>{
-    return db.queryRelated(productId)
-    .catch((err)=>{
-
+  getRelatedProducts: async (productId)=>{
+    const tuples = (await db.queryRelated(productId)).rows
+    return tuples.map((tuple)=>{
+      return tuple.related_id
     })
   }
 }

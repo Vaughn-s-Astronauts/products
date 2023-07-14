@@ -1,47 +1,6 @@
-{
-  "info": {
-    "queriedHost": "127.0.0.1:8080",
-    "triedHosts": {
-      "127.0.0.1:8080": null
-    },
-    "speculativeExecutions": 0,
-    "achievedConsistency": 10,
-    "isSchemaInAgreement": true
-  },
-  "rows": [
-    {
-      "product_id": 1,
-      "related_id": 2
-    },
-    {
-      "product_id": 1,
-      "related_id": 3
-    },
-    {
-      "product_id": 1,
-      "related_id": 7
-    },
-    {
-      "product_id": 1,
-      "related_id": 8
-    }
-  ],
-  "rowLength": 4,
-  "columns": [
-    {
-      "name": "product_id",
-      "type": {
-        "code": 9,
-        "type": null
-      }
-    },
-    {
-      "name": "related_id",
-      "type": {
-        "code": 9,
-        "type": null
-      }
-    }
-  ],
-  "pageState": null
-}
+[
+  2,
+  3,
+  7,
+  8
+]
