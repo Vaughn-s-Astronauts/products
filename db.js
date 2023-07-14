@@ -8,15 +8,21 @@ const client = new cassandra.Client({
 
 const db = {
 
-  queryAllProducts: ()=>{
+  queryAllProducts: async (page, count)=>{
     let query = `
       SELECT * from product_by_id
     `
-    return client.execute(query)
-    .catch((err)=>{
-      console.log('DB-QA:', err.message)
-      throw err
-    })
+    const options = { prepare: true , fetchSize: count }
+    const results = await client.execute(query, null, options)
+
+    const products = []
+    const start = (page - 1) * count
+    const stop = page * count
+    let index = 0
+    for await (const row of results) {
+      if (++index > stop) return products
+      if (index > start) products.push(row)
+    }
   },
 
   queryProduct: (productId)=>{

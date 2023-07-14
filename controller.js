@@ -9,8 +9,13 @@ const controller = {
     return product
   },
 
-  getAllProducts: ()=>{
-    // TODO
+  getAllProducts: async (page, count)=>{
+    const products = (await db.queryAllProducts(page, count))
+    products.forEach((product)=>{
+      product.id = product.product_id
+      delete product.product_id
+    })
+    return products
   },
 
   getStyles: async (productId)=>{

@@ -49,7 +49,17 @@ app.get('/products/:product_id', (req, res)=>{
 })
 
 app.get('/products', (req, res, next)=>{
-  res.sendStatus(501) // TODO
+  const page = req.query.page || 1
+  const count = req.query.count || 5
+  controller.getAllProducts(page, count)
+  .then((data)=>{
+    res.status(200)
+    res.send(data)
+  })
+  .catch((err)=>{
+    console.log(err.message)
+    res.sendStatus(418)
+  })
 })
 
 app.get('/', (req, res)=>{
