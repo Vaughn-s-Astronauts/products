@@ -10,7 +10,7 @@
 # DB Installation
 1. sudo apt install default-jre
 2. sudo docker pull cassandra:latest
-3. sudo docker run --name cass_cluster cassandra:latest
+3. sudo docker run -p 8080:9042 --name cass_cluster cassandra:latest
 OR
 3. GUI: ???
 
