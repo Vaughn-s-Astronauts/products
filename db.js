@@ -12,7 +12,7 @@ const db = {
     let query = `
       SELECT * from product_by_id
     `
-    const options = { prepare: true , fetchSize: count }
+    const options = { prepare: true , fetchSize: 200 }
     const results = await client.execute(query, null, options)
 
     const products = []
