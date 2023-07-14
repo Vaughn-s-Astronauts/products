@@ -12,9 +12,11 @@
 2. sudo docker pull cassandra:latest
 3. sudo docker run -p 8080:9042 --name cass_cluster cassandra:latest
 
-# NOTE: Exiting the term which is running the cluster will stop the VM
-# NOTE: Even though the VM has stopped, it still blocks from using docker run
+- NOTE: Exiting the term which is running the cluster will stop the VM
+- NOTE: Even though the VM has stopped, it still blocks from using docker run
+
 Fix:
+
 - GUI: Docker Desktop > Images tab > Actions column > Play button
 - CLI: ???
 
