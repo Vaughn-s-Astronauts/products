@@ -1,10 +1,10 @@
 import cassandra from 'cassandra-driver'
 
-const client = new cassandra.Client({
+let client = new cassandra.Client({
   contactPoints: ['localhost:8080'],
   localDataCenter: 'datacenter1',
   keyspace: 'product_space'
-});
+})
 
 const db = {
 
@@ -94,6 +94,20 @@ const db = {
     .catch((err)=>{
       console.log('DB-QF:', err.message)
       throw err
+    })
+  },
+
+  close: ()=>{
+    if (client) client.shutdown()
+    client = null
+  },
+
+  open: ()=>{
+    db.close()
+    client = new cassandra.Client({
+      contactPoints: ['localhost:8080'],
+      localDataCenter: 'datacenter1',
+      keyspace: 'product_space'
     })
   }
 }

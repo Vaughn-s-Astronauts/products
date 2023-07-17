@@ -1,5 +1,9 @@
 # products
 
+# Setup
+1. npm install
+2. npm install jest --global
+
 # Install Docker (Windows)
 1. Install gui application here: https://www.docker.com/get-started/
 2. When prompted, make sure WSL option is selected (this should be the default)
