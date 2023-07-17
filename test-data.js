@@ -32,10 +32,14 @@ let rawProduct = await db.queryProduct(1)
 let rawStyles = await db.queryStyles(1)
 let rawRelated = await db.queryRelated(1)
 let rawFeatures = await db.queryFeatures(1)
-let rawPhotos = await db.queryPhotos(1)
-let rawSkus = await db.querySkus(1)
+let rawPhotos = {}
+let rawSkus = {}
+for (const row of rawStyles.rows) {
+  rawPhotos[row.style_id] = await db.queryPhotos(row.style_id)
+  rawSkus[row.style_id] = await db.querySkus(row.style_id)
+}
 
-let rawData = {rawProducts, rawProduct, rawStyles, rawRelated, rawPhotos, rawSkus}
+let rawData = {rawProducts, rawProduct, rawStyles, rawRelated, rawPhotos, rawSkus, rawFeatures}
 
 await fs.writeFile(
   fileURLToPath(new URL('./test-data/rawData.json', import.meta.url)),
