@@ -2,6 +2,8 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import morgan from 'morgan'
 import controller from './controller.js'
+import 'dotenv/config'
+const {PORT} = process.env
 
 const app = express()
 
@@ -66,6 +68,7 @@ app.get('/', (req, res)=>{
   res.sendStatus(404)
 })
 
-app.listen(8000, ()=>{
-  console.log('Listening on port 8000')
+app.listen(process.env.API_PORT, ()=>{
+  console.log(new Date())
+  console.log('Listening on port', process.env.API_PORT)
 })

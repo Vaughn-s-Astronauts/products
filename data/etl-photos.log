@@ -1,0 +1,300 @@
+Migrating photos
+bad data, could not parse:
+48,12,"https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80","https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+249,37,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+263,38,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+272,39,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+282,40,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+298,41,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+304,42,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+315,43,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+326,44,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+bad data, could not parse:
+337,45,"https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80","https://images.unsplash.com/photo-1507920676663-3b72429774ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80
+Invalid unset value for column style_id
+skipping record
+2023-07-20T21:54:52.450Z
+Still working... 2519 records processed, current rate 503 records per second
+2023-07-20T21:55:52.452Z
+Still working... 47367 records processed, current rate 747 records per second
+2023-07-20T21:56:52.458Z
+Still working... 93993 records processed, current rate 777 records per second
+2023-07-20T21:57:52.459Z
+Still working... 140191 records processed, current rate 770 records per second
+2023-07-20T21:58:52.462Z
+Still working... 183545 records processed, current rate 723 records per second
+2023-07-20T21:59:52.464Z
+Still working... 223229 records processed, current rate 661 records per second
+2023-07-20T22:00:52.464Z
+Still working... 267544 records processed, current rate 739 records per second
+2023-07-20T22:01:52.465Z
+Still working... 314050 records processed, current rate 775 records per second
+2023-07-20T22:02:52.468Z
+Still working... 361182 records processed, current rate 786 records per second
+2023-07-20T22:03:52.467Z
+Still working... 407878 records processed, current rate 778 records per second
+2023-07-20T22:04:52.469Z
+Still working... 454159 records processed, current rate 771 records per second
+2023-07-20T22:05:52.470Z
+Still working... 498763 records processed, current rate 743 records per second
+2023-07-20T22:06:52.471Z
+Still working... 543198 records processed, current rate 741 records per second
+2023-07-20T22:07:52.471Z
+Still working... 587299 records processed, current rate 735 records per second
+2023-07-20T22:08:52.472Z
+Still working... 633372 records processed, current rate 768 records per second
+2023-07-20T22:09:52.472Z
+Still working... 676983 records processed, current rate 727 records per second
+2023-07-20T22:10:52.472Z
+Still working... 723736 records processed, current rate 779 records per second
+2023-07-20T22:11:52.473Z
+Still working... 770558 records processed, current rate 780 records per second
+2023-07-20T22:12:52.473Z
+Still working... 817668 records processed, current rate 785 records per second
+2023-07-20T22:13:52.473Z
+Still working... 863741 records processed, current rate 768 records per second
+2023-07-20T22:14:52.473Z
+Still working... 910496 records processed, current rate 779 records per second
+2023-07-20T22:15:52.473Z
+Still working... 956323 records processed, current rate 764 records per second
+2023-07-20T22:16:52.473Z
+Still working... 998325 records processed, current rate 700 records per second
+2023-07-20T22:17:52.473Z
+Still working... 1044989 records processed, current rate 778 records per second
+2023-07-20T22:18:52.473Z
+Still working... 1094072 records processed, current rate 818 records per second
+2023-07-20T22:19:52.472Z
+Still working... 1142943 records processed, current rate 815 records per second
+2023-07-20T22:20:52.472Z
+Still working... 1191173 records processed, current rate 804 records per second
+2023-07-20T22:21:52.475Z
+Still working... 1239943 records processed, current rate 813 records per second
+2023-07-20T22:22:52.475Z
+Still working... 1286566 records processed, current rate 777 records per second
+2023-07-20T22:23:52.474Z
+Still working... 1333566 records processed, current rate 783 records per second
+2023-07-20T22:24:52.475Z
+Still working... 1380632 records processed, current rate 784 records per second
+2023-07-20T22:25:52.475Z
+Still working... 1428345 records processed, current rate 795 records per second
+2023-07-20T22:26:52.475Z
+Still working... 1474802 records processed, current rate 774 records per second
+2023-07-20T22:27:52.476Z
+Still working... 1518113 records processed, current rate 722 records per second
+2023-07-20T22:28:52.475Z
+Still working... 1562063 records processed, current rate 733 records per second
+2023-07-20T22:29:52.480Z
+Still working... 1599752 records processed, current rate 628 records per second
+2023-07-20T22:30:52.483Z
+Still working... 1638362 records processed, current rate 644 records per second
+2023-07-20T22:31:52.483Z
+Still working... 1675576 records processed, current rate 620 records per second
+2023-07-20T22:32:52.485Z
+Still working... 1715013 records processed, current rate 657 records per second
+2023-07-20T22:33:52.486Z
+Still working... 1755547 records processed, current rate 676 records per second
+2023-07-20T22:34:52.487Z
+Still working... 1796634 records processed, current rate 685 records per second
+2023-07-20T22:35:52.487Z
+Still working... 1835457 records processed, current rate 647 records per second
+2023-07-20T22:36:52.488Z
+Still working... 1874803 records processed, current rate 656 records per second
+2023-07-20T22:37:52.488Z
+Still working... 1914958 records processed, current rate 669 records per second
+2023-07-20T22:38:52.490Z
+Still working... 1954967 records processed, current rate 667 records per second
+2023-07-20T22:39:52.489Z
+Still working... 1994224 records processed, current rate 654 records per second
+2023-07-20T22:40:52.488Z
+Still working... 2034036 records processed, current rate 664 records per second
+2023-07-20T22:41:52.487Z
+Still working... 2074228 records processed, current rate 670 records per second
+2023-07-20T22:42:52.487Z
+Still working... 2114043 records processed, current rate 664 records per second
+2023-07-20T22:43:52.488Z
+Still working... 2156140 records processed, current rate 702 records per second
+2023-07-20T22:44:52.487Z
+Still working... 2198353 records processed, current rate 704 records per second
+2023-07-20T22:45:52.487Z
+Still working... 2239966 records processed, current rate 694 records per second
+2023-07-20T22:46:52.487Z
+Still working... 2282305 records processed, current rate 706 records per second
+2023-07-20T22:47:52.486Z
+Still working... 2324156 records processed, current rate 698 records per second
+2023-07-20T22:48:52.486Z
+Still working... 2366743 records processed, current rate 710 records per second
+2023-07-20T22:49:52.486Z
+Still working... 2408743 records processed, current rate 700 records per second
+2023-07-20T22:50:52.486Z
+Still working... 2451023 records processed, current rate 705 records per second
+2023-07-20T22:51:52.485Z
+Still working... 2493783 records processed, current rate 713 records per second
+2023-07-20T22:52:52.485Z
+Still working... 2534894 records processed, current rate 685 records per second
+2023-07-20T22:53:52.485Z
+Still working... 2576655 records processed, current rate 696 records per second
+2023-07-20T22:54:52.485Z
+Still working... 2618630 records processed, current rate 700 records per second
+2023-07-20T22:55:52.487Z
+Still working... 2659899 records processed, current rate 688 records per second
+2023-07-20T22:56:52.487Z
+Still working... 2698247 records processed, current rate 639 records per second
+2023-07-20T22:57:52.488Z
+Still working... 2737494 records processed, current rate 654 records per second
+2023-07-20T22:58:52.488Z
+Still working... 2778971 records processed, current rate 691 records per second
+2023-07-20T22:59:52.488Z
+Still working... 2823162 records processed, current rate 737 records per second
+2023-07-20T23:00:52.487Z
+Still working... 2866167 records processed, current rate 717 records per second
+2023-07-20T23:01:52.487Z
+Still working... 2910059 records processed, current rate 732 records per second
+2023-07-20T23:02:52.487Z
+Still working... 2956721 records processed, current rate 778 records per second
+2023-07-20T23:03:52.487Z
+Still working... 3003178 records processed, current rate 774 records per second
+2023-07-20T23:04:52.486Z
+Still working... 3048846 records processed, current rate 761 records per second
+2023-07-20T23:05:52.485Z
+Still working... 3094883 records processed, current rate 767 records per second
+2023-07-20T23:06:52.485Z
+Still working... 3141176 records processed, current rate 772 records per second
+2023-07-20T23:07:52.485Z
+Still working... 3187594 records processed, current rate 774 records per second
+2023-07-20T23:08:52.485Z
+Still working... 3234241 records processed, current rate 777 records per second
+2023-07-20T23:09:52.485Z
+Still working... 3280812 records processed, current rate 776 records per second
+2023-07-20T23:10:52.485Z
+Still working... 3327396 records processed, current rate 776 records per second
+2023-07-20T23:11:52.484Z
+Still working... 3373713 records processed, current rate 772 records per second
+2023-07-20T23:12:52.484Z
+Still working... 3415477 records processed, current rate 696 records per second
+2023-07-20T23:13:52.484Z
+Still working... 3451092 records processed, current rate 594 records per second
+2023-07-20T23:14:52.482Z
+Still working... 3489614 records processed, current rate 642 records per second
+2023-07-20T23:15:52.481Z
+Still working... 3526777 records processed, current rate 619 records per second
+2023-07-20T23:16:52.483Z
+Still working... 3565267 records processed, current rate 641 records per second
+2023-07-20T23:17:52.483Z
+Still working... 3608502 records processed, current rate 721 records per second
+2023-07-20T23:18:52.483Z
+Still working... 3655105 records processed, current rate 777 records per second
+2023-07-20T23:19:52.482Z
+Still working... 3701655 records processed, current rate 776 records per second
+2023-07-20T23:20:52.483Z
+Still working... 3746515 records processed, current rate 748 records per second
+2023-07-20T23:21:52.483Z
+Still working... 3791078 records processed, current rate 743 records per second
+2023-07-20T23:22:52.484Z
+Still working... 3837620 records processed, current rate 776 records per second
+2023-07-20T23:23:52.484Z
+Still working... 3884466 records processed, current rate 781 records per second
+2023-07-20T23:24:52.485Z
+Still working... 3931476 records processed, current rate 784 records per second
+2023-07-20T23:25:52.485Z
+Still working... 3977187 records processed, current rate 762 records per second
+2023-07-20T23:26:52.485Z
+Still working... 4023175 records processed, current rate 766 records per second
+2023-07-20T23:27:52.486Z
+Still working... 4069984 records processed, current rate 780 records per second
+2023-07-20T23:28:52.485Z
+Still working... 4116998 records processed, current rate 784 records per second
+2023-07-20T23:29:52.485Z
+Still working... 4164007 records processed, current rate 783 records per second
+2023-07-20T23:30:52.484Z
+Still working... 4210812 records processed, current rate 780 records per second
+2023-07-20T23:31:52.483Z
+Still working... 4255402 records processed, current rate 743 records per second
+2023-07-20T23:32:52.483Z
+Still working... 4298242 records processed, current rate 714 records per second
+2023-07-20T23:33:52.484Z
+Still working... 4343468 records processed, current rate 754 records per second
+2023-07-20T23:34:52.481Z
+Still working... 4390102 records processed, current rate 777 records per second
+2023-07-20T23:35:52.481Z
+Still working... 4436606 records processed, current rate 775 records per second
+2023-07-20T23:36:52.484Z
+Still working... 4484299 records processed, current rate 795 records per second
+2023-07-20T23:37:52.484Z
+Still working... 4533359 records processed, current rate 818 records per second
+2023-07-20T23:38:52.483Z
+Still working... 4582650 records processed, current rate 822 records per second
+2023-07-20T23:39:52.482Z
+Still working... 4631362 records processed, current rate 812 records per second
+2023-07-20T23:40:52.480Z
+Still working... 4675260 records processed, current rate 732 records per second
+2023-07-20T23:41:52.480Z
+Still working... 4720285 records processed, current rate 750 records per second
+2023-07-20T23:42:52.478Z
+Still working... 4765327 records processed, current rate 751 records per second
+2023-07-20T23:43:52.478Z
+Still working... 4809534 records processed, current rate 737 records per second
+2023-07-20T23:44:52.477Z
+Still working... 4852793 records processed, current rate 721 records per second
+2023-07-20T23:45:52.478Z
+Still working... 4896299 records processed, current rate 725 records per second
+2023-07-20T23:46:52.479Z
+Still working... 4942558 records processed, current rate 771 records per second
+2023-07-20T23:47:52.479Z
+Still working... 4988986 records processed, current rate 774 records per second
+2023-07-20T23:48:52.478Z
+Still working... 5034789 records processed, current rate 763 records per second
+2023-07-20T23:49:52.478Z
+Still working... 5083195 records processed, current rate 807 records per second
+2023-07-20T23:50:52.478Z
+Still working... 5131679 records processed, current rate 808 records per second
+2023-07-20T23:51:52.479Z
+Still working... 5179327 records processed, current rate 794 records per second
+2023-07-20T23:52:52.480Z
+Still working... 5224769 records processed, current rate 757 records per second
+2023-07-20T23:53:52.480Z
+Still working... 5267058 records processed, current rate 705 records per second
+2023-07-20T23:54:52.480Z
+Still working... 5308079 records processed, current rate 684 records per second
+2023-07-20T23:55:52.480Z
+Still working... 5351994 records processed, current rate 732 records per second
+2023-07-20T23:56:52.481Z
+Still working... 5395654 records processed, current rate 728 records per second
+2023-07-20T23:57:52.481Z
+Still working... 5440453 records processed, current rate 747 records per second
+2023-07-20T23:58:52.481Z
+Still working... 5484853 records processed, current rate 740 records per second
+2023-07-20T23:59:52.481Z
+Still working... 5531201 records processed, current rate 772 records per second
+2023-07-21T00:00:52.481Z
+Still working... 5574765 records processed, current rate 726 records per second
+2023-07-21T00:01:52.480Z
+Still working... 5620119 records processed, current rate 756 records per second
+Finished migrating all files in 128 minutes
+5655646 records were added
+10 records were skipped

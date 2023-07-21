@@ -1,35 +1,4 @@
 {
-  "features": [
-    "id",
-    "product_id",
-    "feature",
-    "value"
-  ],
-  "photos": [
-    "id",
-    "styleId",
-    "url",
-    "thumbnail_url"
-  ],
-  "product": [
-    "id",
-    "name",
-    "slogan",
-    "description",
-    "category",
-    "default_price"
-  ],
-  "related": [
-    "id",
-    "current_product_id",
-    "related_product_id"
-  ],
-  "skus": [
-    "id",
-    "styleId",
-    "size",
-    "quantity"
-  ],
   "styles": [
     "id",
     "productId",

@@ -1,7 +1,9 @@
 import cassandra from 'cassandra-driver'
+import 'dotenv/config'
+const {DB_URL} = process.env
 
 let client = new cassandra.Client({
-  contactPoints: ['localhost:8080'],
+  contactPoints: [DB_URL],
   localDataCenter: 'datacenter1',
   keyspace: 'product_space'
 })
@@ -23,6 +25,7 @@ const db = {
       if (++index > stop) return products
       if (index > start) products.push(row)
     }
+    return products
   },
 
   queryProduct: (productId)=>{
@@ -105,7 +108,7 @@ const db = {
   open: ()=>{
     db.close()
     client = new cassandra.Client({
-      contactPoints: ['localhost:8080'],
+      contactPoints: [DB_URL],
       localDataCenter: 'datacenter1',
       keyspace: 'product_space'
     })

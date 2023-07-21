@@ -6,3 +6,6 @@ data/skus*
 data/styles*
 node_modules
 .cassandraWorkbench.jsonc
+.env*
+server.log
+times.log
