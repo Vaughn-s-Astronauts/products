@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "start": "nodemon ./index.js | tee -a ./server.log"
+    "start": "sudo nodemon ./index.js | tee -a ./server.log"
   },
   "repository": {
     "type": "git",
