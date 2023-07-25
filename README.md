@@ -1,4 +1,4 @@
-# products
+# Atelier Products API
 
 # Setup
 1. `npm install`
