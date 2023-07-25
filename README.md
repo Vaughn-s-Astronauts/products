@@ -33,5 +33,6 @@ ETL-related files can be found in the data directory. To repeat the process:
 - styles.csv
 2. cd into `/data` directory
 3. Run `./etl-parallel.sh`
-4. Log files following the naming pattern `etl-[table_name].log` will be created in the `/data` directory.
-Note: the ETL script assumes that the database is available at localhost:8080. If the process is repeated in a different env, this value may need to be changed.
+4. This may take awhile. Log files following the naming pattern `etl-[table_name].log` will be created in the `/data` directory. Reference these files for status updates, error messages, and process results.
+
+- Note: the ETL script assumes that the database is available at localhost:8080. If the process is repeated in a different env, this value may need to be changed.
