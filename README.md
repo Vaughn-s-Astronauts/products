@@ -39,5 +39,6 @@ ETL-related files can be found in the data directory. To repeat the process:
 - related.csv
 - skus.csv
 - styles.csv
-2. Run node ./data/etl.js
+2. cd into /data directory
+3. Run ./etl-parallel.sh
 Note: the ETL script assumes that the database is available at localhost:8080. If the process is repeated in a different env, this value may need to be changed.
